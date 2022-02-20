@@ -23,7 +23,7 @@ const WhySupport = () => {
                 </p>
                 <button className='connect-wallet-btn' style={{ padding: '10px 30px' }}>Whitepaper</button>
             </div>
-            <img style={{ width: '90%', margin: 'auto', marginTop: '90px', display: 'block' }} src={footerImage} alt='header' />
+            <img style={{ width: '100%', margin: 'auto', marginTop: '90px', display: 'block' }} src={footerImage} alt='header' />
 
         </div>
     );
