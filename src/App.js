@@ -5,6 +5,11 @@ import Watch from './components/Watch';
 import Main from './components/Main';
 import TokensDiv from './components/TokensDiv';
 import Gallery from './components/Gallery';
+import WhySupport from './components/WhySupport';
+import Footer from './components/Footer';
+import Takenomics from './components/Takenomics';
+import Graph from './components/Graph';
+import RoadMap from './components/RoadMap';
 
 function App() {
   return (
@@ -16,7 +21,12 @@ function App() {
           <Main />
           <TokensDiv />
           <Gallery />
+          <Takenomics />
+          <Graph />
+          <RoadMap />
+          <WhySupport />
         </div>
+        <Footer />
       </div>
     </div>
   );
