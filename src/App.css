@@ -213,7 +213,9 @@ input{
   .body{
     width: 100%;
   }
-
+.clock{
+  width: 180px;
+}
  .clock-section p{
    font-size: 2rem;
  }
