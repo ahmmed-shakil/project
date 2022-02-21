@@ -4,6 +4,7 @@ const TokensDiv = () => {
     return (
         <div className='background'>
             <h3 className='header'>ILX Governance Tokens</h3>
+            <hr className='border-bottom' />
             <p className='content'>
                 The ILX Governance Token Smart Contract will govern the DAO’s issuance and allocation of pooled resources from the sale and trade of the token
             </p>
