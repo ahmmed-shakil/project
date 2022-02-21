@@ -157,9 +157,10 @@ svg{
 }
 
 .graph{
-  /* width: 80%; */
+  width: 85%;
+  margin: auto;
   margin-top: 70px;
-  border-radius: 15px;
+  border-radius: 15px;  
 }
 .graph img{
   width: 100%;
@@ -263,6 +264,9 @@ color: #39FECB;
     align-items: center;
   }
   .body{
+    width: 100%;
+  }
+  .graph{
     width: 100%;
   }
 .clock{
