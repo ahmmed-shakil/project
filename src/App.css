@@ -1,7 +1,15 @@
+
+@import url('http://fonts.cdnfonts.com/css/anivers');
+@import url('http://fonts.cdnfonts.com/css/digital-7-mono');
+
+                
+
 .body{
   box-sizing: border-box;
   width: 90%;
   margin: auto;
+  font-family: 'Anivers', sans-serif;
+                                                
 }
 
 .App {
@@ -11,11 +19,18 @@
 }
 
 .connect-wallet-btn{
-  background-image: linear-gradient(to right, rgba(236,106,254,0.8), rgba(42,150,213,0.8));
+  background: linear-gradient(90deg, #F168FF 0%, #2297D3 100%);
+/* border-radius: 20px; */
+border-radius: 20px;
+  /* background: linear-gradient(180deg, #172144 0%, #101626 100%); */
+  border-radius: 20px;
+  /* background-image: linear-gradient(to right, rgba(236,106,254,0.8), rgba(42,150,213,0.8)); */
   border: 0;
   color: white;
   padding: 10px 20px;
-  border-radius: 15px;
+  /* border-radius: 15px; */
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .nav-bar{
@@ -68,27 +83,37 @@
   margin: 10px auto;
 }
 .header{
-  color: white;
-  font-size: 43px;
-  font-weight: 300;
-  margin: 0;
-  padding: 0;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 72px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 1);
+margin-bottom: 0;
+padding: 0;
 }
 .content{
-  font-size: 20px;
-  font-weight: 300;
+  font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.66);
 }
 .watch{
   margin-bottom: 0;
   letter-spacing: 1.8;
 }
 .background{
-  background-color: #131B33;
-  border-radius: 15px;
+  background: linear-gradient(180deg, #172144 0%, #101626 100%);
+  border-radius: 20px;
+  /* border-radius: 15px; */
   color: white;
   padding: 10px 30px;
   margin-top: 60px;
   text-align: justify;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 
@@ -136,7 +161,8 @@ svg{
   text-align: left;
 }
 .road-map ul li{
-  font-size: 17px;
+font-size: 20px;
+color: rgba(255, 255, 255, 0.66);
 }
 
 .label{
@@ -173,17 +199,24 @@ input{
 }
 
 .clock {
-  /* position: relative; */
+  position: relative;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   /* background: linear-gradient(270deg, #051817, #0e3839); */
-  height: 180px;
+  /* height: 180px; */
   width: 360px;
-  color: #06f1f6;
-  text-shadow: 1px 1px 7px;
-  border-radius: 15px;
+  font-style: normal;
+font-weight: normal;
+font-size: 155px;
+line-height: 102px;
+/* identical to box height */
+letter-spacing: 0.03em;
+text-transform: capitalize;
+color: #39FECB;
+  font-family: 'Digital-7 Mono', sans-serif;
+                                                
 }
 
 .clock section {
@@ -201,6 +234,8 @@ input{
   font-size: 3rem;
   margin-left: 15px;
   color: #06f1f6;
+  
+  font-family: 'Anivers', sans-serif;
 }
 
 
@@ -214,7 +249,8 @@ input{
     width: 100%;
   }
 .clock{
-  width: 180px;
+  /* width: 180px; */
+  font-size: 50px;
 }
  .clock-section p{
    font-size: 2rem;
@@ -235,5 +271,26 @@ input{
  }
  h3,h4{
    text-align: left;
+ }
+ .header{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+  
+  letter-spacing: 0.03em;
+ }
+ .content{
+  font-size: 16px;
+  line-height: 26px;
+ }
+ .clock-section{
+   font-size: 20px;
+line-height: 24px;
+ }
+ .connect-wallet-btn{
+  font-size: 16px;
+  line-height: 24px;
  }
 }

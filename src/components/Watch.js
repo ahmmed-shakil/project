@@ -10,7 +10,7 @@ const Watch = () => {
     let interval;
 
     const startTimer = () => {
-        const countDownDate = new Date("May 30,2022").getTime();
+        const countDownDate = new Date("March 1,2022").getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -50,20 +50,20 @@ const Watch = () => {
                 <section className="timer">
                     <div className="clock">
                         <section>
-                            <p>{timerDays}</p>
+                            <span>{timerDays}</span>
                             <small>Days</small>
                         </section>
                         <span>:</span>
                         <section>
-                            <p>{timerHours}</p>
+                            <span>{timerHours}</span>
                         </section>{" "}
                         <span>:</span>
                         <section>
-                            <p>{timerMinutes}</p>
+                            <span>{timerMinutes}</span>
                         </section>{" "}
                         <span>:</span>
                         <section>
-                            <p>{timerSeconds}</p>
+                            <span>{timerSeconds}</span>
                         </section>
                     </div>
                 </section>
