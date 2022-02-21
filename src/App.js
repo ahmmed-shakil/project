@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Takenomics from './components/Takenomics';
 import Graph from './components/Graph';
 import RoadMap from './components/RoadMap';
+import Donation from './components/Donation';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Takenomics />
           <Graph />
           <RoadMap />
+          <Donation />
           <WhySupport />
         </div>
         <Footer />

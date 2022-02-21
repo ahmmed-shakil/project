@@ -5,8 +5,6 @@ const RoadMap = () => {
         <div className='background'>
             <h3 className='header'>Roadmap</h3>
             <hr className='border-bottom' />
-
-
             <div className='road-map'>
                 <div>
                     <h3>Q1: 2022</h3>

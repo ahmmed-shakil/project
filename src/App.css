@@ -7,6 +7,7 @@
 .App {
   background-color: #101626;
   padding-top: 25px;
+  text-align: center;
 }
 
 .connect-wallet-btn{
@@ -30,16 +31,16 @@
 }
 
 .logo{
-  width: 450px;
-  height: 103px;
+  width: 350px;
+  height: 80px;
 }
 .logo img{
   width: 100%;
   height: 100%;
 }
 .social-icon{
-  width: 85px;
-  height: 61px;
+  width: 75px;
+  height: 51px;
 }
 
 .border-bottom{
@@ -48,6 +49,23 @@
   height: 1.5px;
   border: 0;
   margin-left: 0;
+}
+.donation-header{
+  color: white;
+  font-size: 43px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.donation-header::after{
+  content: '';
+  display: block;
+  background-image: linear-gradient(to right, rgba(236,106,254,0.8), rgba(42,150,213,0.8));
+  width: 180px;
+  height: 1.5px;
+  border: 0;
+  margin: 10px auto;
 }
 .header{
   color: white;
@@ -73,6 +91,7 @@
   text-align: justify;
 }
 
+
 .brand-image{
   width: 350px;
   height: 260px;
@@ -97,8 +116,8 @@
 }
 
 svg{
-  color: white;
-  margin-right: 10px;
+  color: gray;
+  margin-right: 15px;
   /* font-size: 30px; */
 }
 
@@ -118,4 +137,98 @@ svg{
 }
 .road-map ul li{
   font-size: 17px;
+}
+
+.label{
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+select{
+  background-color: transparent;
+  color: wheat;
+  border: 0;
+  font-size: 20px;
+}
+
+.donation{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+input{
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+  background-color: #101626;
+  display: block;
+  height: 50px;
+  border: 0;
+  border-radius: 15px;
+  text-align: right;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.clock {
+  /* position: relative; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(270deg, #051817, #0e3839); */
+  height: 180px;
+  width: 360px;
+  color: #06f1f6;
+  text-shadow: 1px 1px 7px;
+  border-radius: 15px;
+}
+
+.clock section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.clock section p {
+  font-size: 3rem;
+}
+.clock section small {
+  color: silver;
+  text-shadow: none;
+  font-size: 3rem;
+  margin-left: 15px;
+  color: #06f1f6;
+}
+
+
+@media screen and (max-width:592px) {
+  .nav-bar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .body{
+    width: 100%;
+  }
+
+ .clock-section p{
+   font-size: 2rem;
+ }
+ .clock section small{
+   font-size: 2rem;
+ }
+ .road-map{
+   grid-template-columns: 1fr;
+ }
+ .connect-wallet-btn{
+   width: 70%;
+   display: block;
+   margin: auto;
+ }
+ .footer{
+   flex-direction: column;
+ }
 }
