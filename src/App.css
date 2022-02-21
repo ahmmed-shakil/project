@@ -5,7 +5,7 @@
                 
 
 .body{
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   width: 90%;
   margin: auto;
   font-family: 'Anivers', sans-serif;
@@ -111,9 +111,12 @@ color: rgba(255, 255, 255, 0.66);
   /* border-radius: 15px; */
   color: white;
   padding: 10px 30px;
-  margin-top: 60px;
+
   text-align: justify;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
 }
 
 
@@ -125,8 +128,15 @@ color: rgba(255, 255, 255, 0.66);
   margin-bottom: 50px;
 }
 
-.gallery-image img{
+.gallery{
+  padding: 20px;
+}
+
+.gallery img{
   width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /* padding: 15px; */
 }
 
 .footer{
@@ -199,17 +209,17 @@ input{
 }
 
 .clock {
-  position: relative;
+  /* position: relative; */
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   /* background: linear-gradient(270deg, #051817, #0e3839); */
   /* height: 180px; */
-  width: 360px;
+  width: 150px;
   font-style: normal;
 font-weight: normal;
-font-size: 155px;
+font-size: 140px;
 line-height: 102px;
 /* identical to box height */
 letter-spacing: 0.03em;
@@ -221,8 +231,8 @@ color: #39FECB;
 
 .clock section {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   padding: 1rem;
 }
 .clock section p {
@@ -233,13 +243,20 @@ color: #39FECB;
   text-shadow: none;
   font-size: 3rem;
   margin-left: 15px;
-  color: #06f1f6;
+  color: #39FECB;
   
   font-family: 'Anivers', sans-serif;
 }
 
 
 @media screen and (max-width:592px) {
+  body{
+    width: 100%;
+  }
+  .background{
+    padding: 10px ;
+    width: 95%;
+  }
   .nav-bar{
     flex-direction: column;
     justify-content: center;
@@ -250,13 +267,15 @@ color: #39FECB;
   }
 .clock{
   /* width: 180px; */
-  font-size: 50px;
+  font-size: 40px;
+  width: 80%;
+  margin: auto;
 }
  .clock-section p{
-   font-size: 2rem;
+   font-size: 40px;
  }
  .clock section small{
-   font-size: 2rem;
+   font-size: 40px;
  }
  .road-map{
    grid-template-columns: 1fr;
@@ -277,6 +296,7 @@ color: #39FECB;
   font-weight: normal;
   font-size: 28px;
   line-height: 34px;
+  text-align: left;
   /* identical to box height */
   
   letter-spacing: 0.03em;
@@ -284,6 +304,7 @@ color: #39FECB;
  .content{
   font-size: 16px;
   line-height: 26px;
+  text-align: left;
  }
  .clock-section{
    font-size: 20px;
@@ -292,5 +313,9 @@ line-height: 24px;
  .connect-wallet-btn{
   font-size: 16px;
   line-height: 24px;
+ }
+ .brand-image{
+   width: 90%;
+   margin: 0;
  }
 }

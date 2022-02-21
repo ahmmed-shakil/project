@@ -17,17 +17,17 @@ function App() {
     <div className='App'>
       <div className="body">
         <NavBar></NavBar>
-        <div style={{ width: '80%', margin: 'auto' }}>
-          <Watch />
-          <Main />
-          <TokensDiv />
-          <Gallery />
-          <Takenomics />
-          <Graph />
-          <RoadMap />
-          <Donation />
-          <WhySupport />
-        </div>
+        {/* <div style={{ width: '80%', margin: 'auto' }}> */}
+        <Watch />
+        <Main />
+        <TokensDiv />
+        <Gallery />
+        <Takenomics />
+        <Graph />
+        <RoadMap />
+        <Donation />
+        <WhySupport />
+        {/* </div> */}
         <Footer />
       </div>
     </div>
